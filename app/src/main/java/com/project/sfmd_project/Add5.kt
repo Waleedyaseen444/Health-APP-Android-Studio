@@ -61,6 +61,7 @@ class Add5 : AppCompatActivity() {
                 myFirebaseMessagingService.generateNotification(this,"Doctoroid", " Medicine added successfully " )
 
                 syncLocalDataWithServer()
+
             },
             Response.ErrorListener { error ->
                 // Handle error

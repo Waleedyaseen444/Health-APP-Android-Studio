@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59D6E6"
+    android:backgroundTint="#A5E0E8"
+    android:gravity="center">
+
+    <!-- Chugtai Lab Button -->
+    <LinearLayout
+        android:id="@+id/chugtai_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_chugtai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="openChugtaiWebsite"
+            android:padding="20dp"
+            android:text="CHUGTAI"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Shaukat Khanam Lab Button -->
+    <LinearLayout
+        android:id="@+id/shaukat_khanam_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chugtai_row"
+        android:background="@drawable/rounded_button_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_shaukat_khanam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="openShaukatKhanamWebsite"
+            android:padding="20dp"
+            android:text="SHAUKAT KHANAM"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Lifecare Button -->
+    <LinearLayout
+        android:id="@+id/lifecare_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shaukat_khanam_row"
+        android:background="@drawable/rounded_button_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_lifecare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="openLifecareWebsite"
+            android:padding="20dp"
+            android:text="LIFECARE"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Accredited Lab Button -->
+    <LinearLayout
+        android:id="@+id/accredited_lab_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lifecare_row"
+        android:background="@drawable/rounded_button_background"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_accredited_lab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="openAccreditedLabWebsite"
+            android:padding="20dp"
+            android:text="ACCREDITED LAB"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

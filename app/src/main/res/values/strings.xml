@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SFMD_Project</string>
+    <string name="doctoroid">DOCTOROID</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="test_options">
+        <item>CBC</item>
+        <item>Liver Panel</item>
+        <item>Urinalysis</item>
+    </string-array>
+
+</resources>

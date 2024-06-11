@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SFMD_Project"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PharmacySearchActivity"
+            android:exported="false" />
+
+        <receiver android:name=".MedicationNotificationReceiver" />
+
+        <activity
+            android:name=".Labs"
+            android:exported="false" />
+        <activity
+            android:name=".UralysisActvity"
+            android:exported="false" />
+        <activity
+            android:name=".LiverPanel"
+            android:exported="false" />
+        <activity
+            android:name=".CBCActvity"
+            android:exported="false" />
+        <activity
+            android:name=".LabTestOptionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Add6"
+            android:exported="false" />
+        <activity
+            android:name=".Add5"
+            android:exported="false" />
+        <activity
+            android:name=".Add4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".Retype"
+            android:exported="false" />
+        <activity
+            android:name=".Forgetpassword"
+            android:exported="false" />
+        <activity
+            android:name=".Searchtest"
+            android:exported="false" />
+        <activity
+            android:name=".test1"
+            android:exported="false" />
+        <activity
+            android:name=".Bookedresults"
+            android:exported="false" />
+        <activity
+            android:name=".Searchs"
+            android:exported="false" />
+        <activity
+            android:name=".Searchresults"
+            android:exported="false" />
+        <activity
+            android:name=".Doctoradd"
+            android:exported="false" />
+        <activity
+            android:name=".HealthMetrics"
+            android:exported="false" />
+        <activity
+            android:name=".Customer"
+            android:exported="false" />
+        <activity
+            android:name=".Emergency"
+            android:exported="false" />
+        <activity
+            android:name=".Add3"
+            android:exported="false" />
+        <activity
+            android:name=".Add2"
+            android:exported="false" />
+        <activity
+            android:name=".Add"
+            android:exported="false" />
+        <activity
+            android:name=".WorkExperience"
+            android:exported="false" />
+        <activity
+            android:name=".Qualification"
+            android:exported="false" />
+        <activity
+            android:name=".Reviews"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BookAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".Articles"
+            android:exported="false" />
+        <activity
+            android:name=".Speacial"
+            android:exported="false" />
+        <activity
+            android:name=".Appointment"
+            android:exported="false" />
+        <activity
+            android:name=".Record"
+            android:exported="false" />
+        <activity
+            android:name=".LabResults"
+            android:exported="false" />
+        <activity
+            android:name=".Medicines"
+            android:exported="false" />
+        <activity
+            android:name=".FamilyDiseases"
+            android:exported="false" />
+        <activity
+            android:name=".Diseases"
+            android:exported="false" />
+        <activity
+            android:name=".Complaint"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PatientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Call"
+            android:exported="false" />
+        <activity
+            android:name=".Video"
+            android:exported="false" />
+        <activity
+            android:name=".ChatSearch"
+            android:exported="false" />
+        <activity
+            android:name=".PatientSignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MedicationTracker"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<!-- rounded_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button pressed/focused state -->
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC" /> <!-- Change the pressed color as needed -->
+            <corners android:radius="20dp"/> <!-- Change the corner radius as needed -->
+        </shape>
+    </item>
+    <!-- Button normal state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#D3D3D3" /> <!-- Change the normal color as needed -->
+            <corners android:radius="20dp"/> <!-- Change the corner radius as needed -->
+        </shape>
+    </item>
+</selector>

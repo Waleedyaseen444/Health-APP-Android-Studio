@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Gradient background for the shape -->
+    <gradient
+        android:angle="45"
+    android:startColor="#602AD5"
+    android:endColor="#21E2EE"
+    android:type="linear" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/black" />
+
+
+
+
+
+    <!-- Outer radius for the rounded corners -->
+    <corners
+        android:radius="20dp" /> <!-- Adjust radius as needed -->
+
+</shape>

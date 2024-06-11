@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304160382868",
+    "project_id": "sfmd-project-83268",
+    "storage_bucket": "sfmd-project-83268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304160382868:android:8245a8e637903810753981",
+        "android_client_info": {
+          "package_name": "com.project.sfmd_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgGhCnSntbk26wYDiiNRujOnNUYACBnh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
